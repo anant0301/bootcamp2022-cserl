@@ -1,0 +1,1 @@
+int connect_server(int port_num, char hostname[]);

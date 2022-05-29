@@ -14,7 +14,7 @@ int start_server(int port_num) {
     struct sockaddr_in server_addr;
     sockfd = socket(AF_INET, SOCK_STREAM, 0);
     if (check_invalid(sockfd)) {
-        return 0;
+             0;
     }
     bzero((char*) &server_addr, sizeof(server_addr));
     server_addr.sin_family = AF_INET;
